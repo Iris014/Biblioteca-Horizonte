@@ -4,3 +4,241 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+}
+
+.c-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.img-logo{
+    height: 30px;
+}
+.B-Horizonte{
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.horizonte{
+    color: #0059AA;
+}
+.c-busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+#barra-busqueda{
+    color: #999999;
+    border: solid 1px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    padding: 10px 15px;
+}
+.ingresar{
+    background-color: #2A5EA5;
+    color: #FFFFFF;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.7rem;
+}
+.c-libros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 9px;
+}
+.img-libros{
+    width: 9%;
+}
+.libros{
+    font-size: 0.8rem;
+}
+.n-libros{
+    font-weight: 600;
+}
+
+main{
+    margin: 25px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.c-categorias{
+    background-color: #D1DCE8;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+.t-categoria{
+    background-color: #ECF0F4;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.img-ctg{
+    width: 20%;
+}
+.catwgoria{
+    font-size: 0.7rem;
+}
+
+.c-presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.c-banner{
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    padding: 29px 19px;
+    height: 300px;
+    
+    flex: 4;
+}
+
+.c-info{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 17px;
+    padding: 20px 45px;
+    flex: 2;
+}
+.titulo{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.linea-azul{
+    background-color: #275798;
+    width: 250px;
+    height: 5px;
+}
+.info{
+    font-size: 1.1rem;
+}
+
+.banner{
+    height: 232px;
+}
+
+.c-invitacion{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    flex: 3;
+}
+
+.c-recomendados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    flex: 3;
+}
+.recomendados{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.main-r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+    margin: 0px;
+}
+.t-recomendados{
+    border: solid 2px #D0D0D0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    padding: 14px 22px;
+}
+
+.c-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.c-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.libro-r{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.autor-r{
+    color: #7B7B7B;
+    font-size: 0.7rem;
+}
+
+.row-r{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 11px;
+}
+.ver-mas{
+    color: #3C6EA1;
+    font-size: 0.7;
+}
+.mas{
+    background-color: #15324F;
+    color: #FFFFFF;
+    padding: 8px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.1rem;
+}

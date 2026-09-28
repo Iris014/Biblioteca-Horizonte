@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biblioteca Horizonte</title>
     <link rel="stylesheet" href="static/css/style.css">
 </head>
+
 <body>
-    <header class="nav">
+    <header>
         <div class="c-nav">
+            <img src="static/images/icons/Icono-1.jpeg" alt="logo" class="img-logo">
             <h1 class="B-Horizonte">
-                <img src="static/images/icons/Icono-1.jpeg" alt="logo" class="logo">Biblioteca <span class="horizonte">Horizonte</span>
+                Biblioteca <span class="horizonte">Horizonte</span>
             </h1>
         </div>
         <div class="c-nav">
-            <div class="busqueda">
+            <div class="c-busqueda">
                 <input type="text" id="barra-busqueda" name="email" placeholder="Email">
-                <button class="login">Ingresar</button>
+                <button class="ingresar">Ingresar</button>
             </div>
-            <div class="libros">
+            <div class="c-libros">
                 <img src="static/images/icons/Icono-2.jpg" alt="Libros seleccionados" class="img-libros">
+                <p class="libros">
+                    Libros seleccionados:
                 <p class="n-libros">0</p>
+                </p>
             </div>
         </div>
     </header>
@@ -31,24 +37,24 @@
                 <p class="categoria">Novelas</p>
             </div>
             <div class="t-categoria">
-                <img src="static/images/icons/Icono-3.jpg" alt="Novelas" class="img-ctg">
-                <p class="categoria">Novelas</p>
+                <img src="static/images/icons/Icono-4.jpg" alt="Ciencia" class="img-ctg">
+                <p class="categoria">Ciencia</p>
             </div>
             <div class="t-categoria">
-                <img src="static/images/icons/Icono-3.jpg" alt="Novelas" class="img-ctg">
-                <p class="categoria">Novelas</p>
+                <img src="static/images/icons/Icono-5.jpg" alt="Historia" class="img-ctg">
+                <p class="categoria">Historia</p>
             </div>
             <div class="t-categoria">
-                <img src="static/images/icons/Icono-3.jpg" alt="Novelas" class="img-ctg">
-                <p class="categoria">Novelas</p>
+                <img src="static/images/icons/Icono-6.jpg" alt="Tecnologia" class="img-ctg">
+                <p class="categoria">Tecnologia</p>
             </div>
             <div class="t-categoria">
-                <img src="static/images/icons/Icono-3.jpg" alt="Novelas" class="img-ctg">
-                <p class="categoria">Novelas</p>
+                <img src="static/images/icons/Icono-7.jpg" alt="Arte" class="img-ctg">
+                <p class="categoria">Arte</p>
             </div>
             <div class="t-categoria">
-                <img src="static/images/icons/Icono-3.jpg" alt="Novelas" class="img-ctg">
-                <p class="categoria">Novelas</p>
+                <img src="static/images/icons/Icono-8.jpg" alt="Infantil" class="img-ctg">
+                <p class="categoria">Infantil</p>
             </div>
         </div>
         <div class="c-presentacion">
@@ -57,49 +63,54 @@
                     <h2 class="titulo">Descubre nuevas historias</h2>
                     <div class="linea-azul"></div>
                     <p class="info">
-                        Explora nuestra biblioteca virtual y encuentra libros para todos los gustos. 
+                        Explora nuestra biblioteca virtual y encuentra libros para todos los gustos.
                         Conocimiento, aventura y mucho más al alcance de un clic.</p>
                 </div>
                 <div class="c-invitacion">
-                    <img src="static/images/" alt="Invitación a Biblioteca Horizonte" class="img-banner">
+                    <video src="static/video/Virtual Tour - VMC Library - Vaughan Public Libraries (1080p, h264).mp4" controls alt="Invitación a Biblioteca Horizonte" class="banner">
                     <p class="invitacion">Conoce la Biblioteca Horizonte</p>
                 </div>
             </div>
             <div class="c-recomendados">
                 <h2 class="recomendados">Libros recomendados:</h2>
-                <div class="t-recomendados">
-                    <div class="c-1">
-                        <img src="static/images/" alt="cien años de soledad" class="img-recomwendados">
-                    </div>
-                    <div class="c-2">
-                        <p class="libro-r">Cien años de soledad</p>
-                        <p class="autor-r">Gabriel Garcia Marquez</p>
-                        <div class="row-r">
-                            <a href="#" class="ver-mas">Ver más...</a>
+                <div class="main-r">
+                    <div class="t-recomendados">
+                        <div class="c-1">
+                            <img src="static/images/" alt="cien años de soledad" class="img-recomwendados">
+                        </div>
+                        <div class="c-2">
+                            <p class="libro-r">Cien años de soledad</p>
+                            <p class="autor-r">Gabriel Garcia Marquez</p>
+                            <div class="row-r">
+                                <a href="#" class="ver-mas">Ver más...</a>
+                            <button class="mas" id="boton1">+</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="t-recomendados">
-                    <div class="c-1">
-                        <img src="static/images/" alt="cien años de soledad" class="img-recomwendados">
-                    </div>
-                    <div class="c-2">
-                        <p class="libro-r">Cien años de soledad</p>
-                        <p class="autor-r">Gabriel Garcia Marquez</p>
-                        <div class="row-r">
-                            <a href="#" class="ver-mas">Ver más...</a>
+                    <div class="t-recomendados">
+                        <div class="c-1">
+                            <img src="static/images/" alt="Sapiens" class="img-recomwendados">
+                        </div>
+                        <div class="c-2">
+                            <p class="libro-r">Sapiens</p>
+                            <p class="autor-r">Yoval Noah Harari</p>
+                            <div class="row-r">
+                                <a href="#" class="ver-mas">Ver más...</a>
+                            <button class="mas" id="boton2">+</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="t-recomendados">
-                    <div class="c-1">
-                        <img src="static/images/" alt="cien años de soledad" class="img-recomwendados">
-                    </div>
-                    <div class="c-2">
-                        <p class="libro-r">Cien años de soledad</p>
-                        <p class="autor-r">Gabriel Garcia Marquez</p>
-                        <div class="row-r">
-                            <a href="#" class="ver-mas">Ver más...</a>
+                    <div class="t-recomendados">
+                        <div class="c-1">
+                            <img src="static/images/" alt="El principito" class="img-recomwendados">
+                        </div>
+                        <div class="c-2">
+                            <p class="libro-r">El principito</p>
+                            <p class="autor-r">Antoine de Saint-Exupéry</p>
+                            <div class="row-r">
+                                <a href="#" class="ver-mas">Ver más...</a>
+                            <button class="mas" id="boton3">+</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,4 +119,5 @@
     </main>
     <script src="static/js/script.js"></script>
 </body>
+
 </html>
