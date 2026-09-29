@@ -5,6 +5,9 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     background-color: #FFFFFF;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -19,10 +22,9 @@ header {
 
 .c-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-    gap: 9px;
 }
 
 .img-logo {
@@ -41,7 +43,7 @@ header {
     color: #999999;
     border: solid 1px;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     padding: 10px 15px;
 }
 
@@ -51,7 +53,7 @@ header {
     padding: 10px 14px;
     border: none;
     border-radius: 10px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 
 .c-libros {
@@ -66,8 +68,15 @@ header {
     width: 9%;
 }
 
+.col-libros{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
 .libros {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .n-libros {
@@ -117,7 +126,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 19px;
+    gap: 69px;
 }
 
 .c-banner {
@@ -126,9 +135,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 29px 19px;
-    height: 300px;
-    flex: 4;
+    padding: 22px 39px;
+    flex: 5;
 }
 
 .c-info {
@@ -137,12 +145,11 @@ main {
     align-items: start;
     flex-direction: column;
     gap: 17px;
-    padding: 20px 45px;
     flex: 2;
 }
 
 .titulo {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 600;
 }
 
@@ -153,11 +160,12 @@ main {
 }
 
 .info {
-    font-size: 1.1rem;
+    color: #585858;
+    font-size: 1.3rem;
 }
 
 .banner {
-    height: 232px;
+    height: 282px;
 }
 
 .c-invitacion {
@@ -166,15 +174,20 @@ main {
     align-items: start;
     flex-direction: column;
     flex: 3;
+    gap: 10px;
+}
+.invitacion{
+    color: #585858;
+    font-size: 1.2rem;
 }
 
 .c-recomendados {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 12px;
-    flex: 2;
+    flex: 3;
 }
 
 .recomendados {
@@ -187,6 +200,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 11px;
+    width: 100%;
 }
 
 .t-recomendados {
@@ -214,9 +229,10 @@ main {
 .c-2 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 6px;
+    padding: 7px 14px;
     width: 100%;
 }
 
@@ -235,7 +251,7 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 12px 14px;
+    padding: 12px 22px;
     width: 100%;
 }
 
@@ -247,7 +263,7 @@ main {
 .mas {
     background-color: #15324F;
     color: #FFFFFF;
-    padding: 5px 9px;
+    padding: 5px 11px;
     border: none;
     border-radius: 50%;
     font-size: 1.5rem;
