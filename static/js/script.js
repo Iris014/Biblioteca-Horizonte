@@ -1,14 +1,14 @@
 console.log("Conexión con js");
 
 let video = document.querySelector(".banner");
-let videoActual = "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries";
+let videoActual = "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries.mp4";
 video.onclick = function() {
-    if (videoActual === "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries"){
+    if (videoActual === "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries.mp4"){
         video.src = "static/videos/La Biblioteca Deichman Bjørvika de Oslo, Noruega.mp4";
         videoActual = "static/videos/La Biblioteca Deichman Bjørvika de Oslo, Noruega.mp4";
     } else {
-        video.src = "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries";
-        videoActual = "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries";
+        video.src = "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries.mp4";
+        videoActual = "static/videos/Virtual Tour - VMC Library - Vaughan Public Libraries.mp4";
     } 
 };
 

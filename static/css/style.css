@@ -28,7 +28,7 @@ header {
 }
 
 .img-logo {
-    height: 70px;
+    height: 80px;
 }
 
 .c-busqueda {
@@ -84,13 +84,14 @@ header {
 }
 
 main {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 180px;
+    margin-right: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 19px;
+    height: 100%; 
 }
 
 .c-categorias {
@@ -126,17 +127,19 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 69px;
+    gap: 49px;
 }
 
 .c-banner {
     background-color: #E4E4E4;
+    padding: 69px 0px 69px 31px;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     flex-direction: row;
-    padding: 22px 39px;
-    flex: 5;
+    flex: 4;
+    gap: 50px;
+    width: 100%;
 }
 
 .c-info {
@@ -144,28 +147,28 @@ main {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    gap: 17px;
-    flex: 2;
+    gap: 29px;
+    flex: 4;
 }
 
 .titulo {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 .linea-azul {
     background-color: #275798;
-    width: 100px;
-    height: 5px;
+    width: 90px;
+    height: 6px;
 }
 
 .info {
     color: #585858;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .banner {
-    height: 282px;
+    height: 311px;
 }
 
 .c-invitacion {
@@ -173,12 +176,13 @@ main {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    flex: 3;
+    flex: 5;
     gap: 10px;
+    padding: 0px 31px 0px 0px;
 }
 .invitacion{
     color: #585858;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .c-recomendados {
@@ -187,7 +191,7 @@ main {
     align-items: flex-start;
     flex-direction: column;
     gap: 12px;
-    flex: 3;
+    flex: 2;
 }
 
 .recomendados {
@@ -200,7 +204,6 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 11px;
     width: 100%;
 }
 
@@ -212,6 +215,7 @@ main {
     flex-direction: row;
     padding: 14px 22px;
     width: 100%;
+    gap: 7px;
 }
 
 .c-1 {
@@ -219,6 +223,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 20%;
 }
 
 .img-r {
@@ -231,9 +236,9 @@ main {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    gap: 6px;
+    gap: 4px;
     padding: 7px 14px;
-    width: 100%;
+    width: 80%;
 }
 
 .libro-r {
@@ -251,7 +256,7 @@ main {
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    padding: 12px 22px;
+    padding: 4px 3px;
     width: 100%;
 }
 
@@ -261,10 +266,13 @@ main {
 }
 
 .mas {
+    position: relative;
+    top: 1px;
+    left: 19px;
     background-color: #15324F;
     color: #FFFFFF;
-    padding: 5px 11px;
+    padding: 3.5px 9.5px;
     border: none;
     border-radius: 50%;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
